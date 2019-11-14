@@ -45,7 +45,7 @@ int main(int argc, char **argv)
     }
     #endif
     // Read video
-    VideoCapture video("videos/chaplin.mp4");
+    VideoCapture video("/home/fish560114/test.mp4");
      
     // Exit if video is not opened
     if(!video.isOpened())
